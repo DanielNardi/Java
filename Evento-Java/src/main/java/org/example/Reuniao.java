@@ -50,5 +50,13 @@ public class Reuniao extends Evento {
         } else {
             return true;
         }
+
+
+    }
+    public void infoReuniao (){
+        System.out.println(nome);
+        System.out.println(data);
+        System.out.println(privado);
+
     }
 }
